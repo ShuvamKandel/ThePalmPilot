@@ -13,10 +13,10 @@ int device4 = 14;
 bool myBoolValue;
 
 // Firebase Configuration
-#define WIFI_SSID "baabsh"
-#define WIFI_PASSWORD "baabsh12"
-#define API_KEY "AIzaSyDJFGpxt4NhJw_BICivqq9e84_VryR6vZk"
-#define DATABASE_URL "https://dinojump-5972c-default-rtdb.firebaseio.com/"
+#define WIFI_SSID "*****"
+#define WIFI_PASSWORD "*****"
+#define API_KEY "**********"
+#define DATABASE_URL "**********"
 
 FirebaseData fbdo;
 FirebaseAuth auth;
