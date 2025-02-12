@@ -13,13 +13,12 @@ BleMouse bleMouse;
 
 RF24 radio(27, 5);
 
-// Set the ESP32 pins for the GPS module (adjust as needed)
-static const int RXPin = 16;  // Connect GPS TX to ESP32 GPIO16
-static const int TXPin = 17;  // Connect GPS RX to ESP32 GPIO17 (if needed)
-static const uint32_t GPSBaud = 9600;  // Adjust if your GPS uses a different baud rate
+static const int RXPin = 16;
+static const int TXPin = 17;
+static const uint32_t GPSBaud = 9600;
 
 TinyGPSPlus gps;
-HardwareSerial gpsSerial(2);  // Using UART2 on ESP32
+HardwareSerial gpsSerial(2);  
 
 double latitude;
 double longitude;
