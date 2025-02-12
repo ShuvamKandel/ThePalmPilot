@@ -1,7 +1,7 @@
 # The Palm Pilot
 This is a device that can control any laptop's cursor and move a RC car with the motion of the hand.
 
-## Making the receiver module
+## Making the Transmitter module
 The NRF24 module's serial comminication pins need to be connected to thier usual pins on the esp32. CE and CSN go to pins 4 and 27.
 MPU6050 SCL and SDA also go to their usual pins.
 Connecting the GPS module is optional as it was kept for another functionality which becomes irrelevant in this project.
